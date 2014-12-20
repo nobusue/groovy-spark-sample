@@ -1,0 +1,16 @@
+plugins {
+  id 'groovy'
+  id 'application'
+}
+
+repositories {
+  //jcenter()
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.codehaus.groovy:groovy-all:2.3.9'
+  compile 'org.apache.spark:spark-core_2.10:1.1.0'
+}
+
+mainClassName = 'SparkGroovySample'
